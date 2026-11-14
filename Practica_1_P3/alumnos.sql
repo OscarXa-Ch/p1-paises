@@ -1,8 +1,0 @@
-CREATE DATABASE alumnos;
-USE alumnos;
-CREATE TABLE alumnos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL,
-    correo VARCHAR(100) NOT NULL,
-    carrera VARCHAR(100) NOT NULL
-);
