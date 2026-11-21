@@ -1,0 +1,22 @@
+{
+  "name": "p2-api-productos",
+  "version": "1.0.0",
+  "description": "API REST de productos con Node.js y Express para la práctica P2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "productos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
